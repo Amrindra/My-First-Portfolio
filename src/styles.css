@@ -1,0 +1,254 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+main {
+  min-height: 80vh;
+  margin-top: 3%;
+}
+body {
+  background-image: url("images/Cool-background.PNG");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  color: #2b4f60;
+}
+h3 {
+  font-family: "Philosopher", sans-serif;
+  color: #4e3d53;
+}
+
+hr {
+  border: dotted #aaaaaa 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+p {
+  /* font-family: "Fira Sans", sans-serif; */
+  font-size: 1.2rem;
+}
+
+/* Header Section */
+.brand-name {
+  font-family: "Lobster", cursive;
+  font-size: 1.8rem;
+}
+.header-brand-icon {
+  color: #2b4f60;
+}
+.underline:hover {
+  border-bottom: 3px solid grey;
+}
+
+/* Contact Section */
+.contact {
+  margin-top: 10rem;
+}
+
+/* Profile Pitcure Section */
+#profile-picture:hover {
+  transition: 1s;
+  background-size: cover;
+  margin: 40px auto;
+  border-radius: 10%;
+  transform: scale(1.3);
+}
+
+#profile-picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  transition: 1.5s;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  transition: 800ms;
+}
+.feature-col {
+  transition: 900ms;
+}
+.feature-col:hover {
+  /* transform: scale(1.5); */
+  transform: translateY(-50px);
+  transition: 900ms;
+  /* opacity: 0; */
+}
+.feature-title {
+  margin-top: 1.5rem;
+  color: #2b4f60;
+}
+.feature-icon {
+  color: #2b4f60;
+}
+
+/* HomePage Section */
+.homepage {
+  /* padding: 1rem 0.3rem 4rem; */
+  text-align: left;
+  /* padding: auto; */
+}
+.homepage-h3 {
+  font-size: 1.5rem;
+}
+.homepage-paragraph {
+  color: #0a043c;
+  font-size: 1.4rem;
+  padding-top: 60px;
+  /* font-family: "Neucha", cursive; */
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.anim-button {
+  animation-name: jiggle;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes jiggle {
+  48%,
+  62% {
+    transform: scale(1.2, 1.2);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  56% {
+    transform: scale(0.9, 1.1) translate(0, -5px);
+  }
+  59% {
+    transform: scale(1, 1.1) translate(0, -3px);
+  }
+}
+.anim-button:hover {
+  animation-play-state: paused;
+}
+
+.card-title {
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.5rem;
+}
+
+.card-image {
+  height: 20rem;
+}
+
+/* Project Section */
+.project-animation {
+  transition: 900ms;
+}
+.project-animation:hover {
+  transform: scale(1.1);
+  transition: 900ms;
+}
+
+/* About Me Animation Section */
+.aboutMe-animation {
+  transition: 900ms;
+}
+.aboutMe-animation:hover {
+  transform: scale(1.1);
+  transition: 900ms;
+}
+.about-me,
+.about-me-feature {
+  background-image: url("images/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-me-text {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 2rem;
+}
+.about-me-profile {
+  height: 60px;
+  width: 60px;
+  transition: 1s;
+}
+.about-me-profile:hover {
+  transition: 1s;
+  background-size: cover;
+  margin: 40px auto;
+  border-radius: 10%;
+  transform: scale(4);
+}
+
+/* Cerificate Animation Section */
+.cert-animation {
+  transition: 900ms;
+}
+.cert-animation:hover {
+  transform: scaleX(1.1);
+  transition: 900ms;
+}
+
+/* footer section */
+.socialMedia {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Resume Section */
+.resume-image {
+  width: 200px;
+  border-radius: 60px;
+}
+.education-paragraph {
+  /* font-size: 1rem; */
+  color: #45526c;
+}
+.resume-head {
+  background-color: #687980;
+  /* color: #eeeeee; */
+}
+.resume-body {
+  background-color: #dddddd;
+  /* background-color: #bdc7c9; */
+}
+.resume-footer {
+  background-color: #678b9c;
+}
+.progressBarSkills {
+  height: 20px;
+  font-size: 1.2rem;
+  text-align-last: left;
+}
+.progressBarOS {
+  height: 20px;
+  font-size: 1.3rem;
+}
+.objective {
+  color: #eeeeee;
+}
+sup {
+  color: grey;
+}
+ul {
+  font-size: 1.2rem;
+}
+
+/* Footer Section */
+footer {
+  padding: 2% auto;
+}
+.footer-icon {
+  transition: 900ms;
+}
+.footer-icon:hover {
+  transform: scale(1.5);
+  transition: 900ms;
+}
+
+/* Contact senction */
